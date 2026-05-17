@@ -102,3 +102,15 @@ footer {
     color: #6b7280;
     font-size: 0.8rem;
 }
+
+/* קאי קולקטורס - צהוב בהתאם ללוגו */
+.link-btn.kai:hover {
+    color: #ffcc00;
+    box-shadow: 0 10px 25px rgba(255, 204, 0, 0.4);
+}
+.link-btn.kai:hover .main-text {
+    color: #ffcc00;
+}
+
+/* הוספת השהייה לכפתור התשיעי (כדי שהאנימציה של כולם תעבוד חלקה) */
+.link-btn:nth-child(9) { animation-delay: 0.9s; }
